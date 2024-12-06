@@ -1,33 +1,3 @@
-macro_emacs-m-x: macro_emacs-m-x{
-compatible = "zmk,behavior-macro";
-label = "macro_emacs-m-x";
-#binding-cells = <0>;
-bindings = <&kt LALT>, <&kp X>, <&kt LALT>;
-};
-macro_emacs-c-x: macro_emacs-c-x{
-compatible = "zmk,behavior-macro";
-label = "macro_emacs-c-x";
-#binding-cells = <0>;
-bindings = <&kt LCTRL>, <&kp X>, <&kt LCTRL>;
-};
-macro_emacs-c-c: macro_emacs-c-c{
-compatible = "zmk,behavior-macro";
-label = "macro_emacs-c-c";
-#binding-cells = <0>;
-bindings = <&kt LCTRL>, <&kp C>, <&kt LCTRL>;
-};
-macro_emacs-evil: macro_emacs-evil{
-compatible = "zmk,behavior-macro";
-label = "macro_emacs-evil";
-#binding-cells = <0>;
-bindings = <&kt LCTRL>, <&kp Z>, <&kt LCTRL>;
-};
-macro_emacs-save: macro_emacs-save{
-compatible = "zmk,behavior-macro";
-label = "macro_emacs-save";
-#binding-cells = <0>;
-bindings = <&kt LCTRL>, <&kp X>, <&kp S>, <&kt LCTRL>;
-};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
